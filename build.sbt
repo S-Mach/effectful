@@ -2,6 +2,9 @@ name := "effectful"
 
 libraryDependencies ++= Seq(
   "org.typelevel" %% "cats" % "0.6.0",
+  // todo: add https://github.com/typelevel/machinist
+
+  // todo: move these elsewhere
   "org.apache.commons" % "commons-io" % "1.3.2" % "test",
   "commons-codec" % "commons-codec" % "1.10" % "test",
   "org.jasypt" % "jasypt" % "1.9.2" % "test",

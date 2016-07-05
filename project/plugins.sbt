@@ -13,3 +13,5 @@ addSbtPlugin("org.scoverage" %% "sbt-coveralls" % "1.0.0")
 addSbtPlugin("com.codacy" % "sbt-codacy-coverage" % "1.0.3")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-pgp" % "0.8.3")
+
+// todo: add https://github.com/non/kind-projector

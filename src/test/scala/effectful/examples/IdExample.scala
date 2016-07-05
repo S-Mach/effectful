@@ -15,9 +15,6 @@ import effectful.examples.pure.uuid.UUIDs.UUID
 import scala.concurrent.duration._
 
 object IdExample {
-  // todo:
-//  import CaptureTransform.ops._
-
   implicit val uuids = new JavaUUIDs
 
   val sqlDriver = new JdbcSqlDriver(

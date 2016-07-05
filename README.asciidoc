@@ -10,6 +10,8 @@ An open source Scala library for effectful services.
 
 Effectful services are generic trait/class pairs that can be used with any monad or nested monad combination without code changes to the trait or class. They follow standard service orientation patterns which offer callers a stable service contract, decouple callers from service dependencies and implementations and allow composition of services to create new services. Effectful services allow the creation of generic business logic libraries that can be reused in any Scala framework such as Play, akka-http, scala-js, http4s, etc.
 
+Note: under construction
+
 ==== Declare an effectful service
 * Declare an effectful service by creating a trait that accepts a generic monad parameter.
 ** Any monad or nested monad combination could be substituted for the generic monad parameter (such as
